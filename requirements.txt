@@ -1,0 +1,18 @@
+# Python version (informational; pin your interpreter to 3.12.x)
+# Python 3.12.*
+
+# Core
+pyspark>=3.4,<3.6
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+
+# Geospatial / mapping
+geopandas>=1.0
+shapely>=2.0
+pyproj>=3.6
+pyogrio>=0.9
+folium>=0.15
+
+# Optional utilities (safe to remove if not used)
+jinja2>=3.1    # for templated HTML/exports
